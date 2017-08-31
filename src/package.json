@@ -1,0 +1,35 @@
+{
+  "name": "bottombar-component",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertofd1995/BottomBar_Component.git"
+  },
+  "author": {
+    "name": "Roberto Fernandez Diaz",
+    "email": "robertofd1995@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "bottom-bar",
+    "boostrap4",
+    "component",
+    "material desing"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertofd1995/BottomBar_Component.git/issues"
+  },
+  "main": "bottombar-component.umd.js",
+  "module": "bottombar-component.js",
+  "jsnext:main": "bottombar-component.js",
+  "typings": "bottombar-component.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/animations": "^4.2.4",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4",
+    "bootstrap": "4.0.0-alpha.6"
+
+  }
+}

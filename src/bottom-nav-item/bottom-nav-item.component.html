@@ -1,0 +1,16 @@
+<div class="nav-item col col-offset-1"
+     [routerLink]="tab.link"
+     [@focusState]="tab.state"
+     (click)="changeState(tab)"
+     routerLinkActive="active">
+
+  <div class="nav-item-icon">
+    <app-icon [icon]="tab.icon"></app-icon>
+  </div>
+  <div class="nav-item-title"
+       *ngIf=" (this.bottomNavService.moreThan3Elements && this.bottomNavService.SHOW_TEXT_IF_MORE_THAN_3_ELEMENTS)
+       || (tab.state=='active') ">
+    {{tab.title}}
+  </div>
+
+</div>

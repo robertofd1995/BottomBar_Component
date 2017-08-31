@@ -1,0 +1,26 @@
+.nav-item {
+  color: rgba(255,255,255, 0.54);
+  max-width: 96px;//168px;
+  min-width: 56px;//80px;
+  outline: none;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-item:hover { //sustituido css por animacion angular
+  //cursor: pointer;
+  //min-width: 96px;
+  //max-width: 110px;
+  //color: black;
+  //transform: scale(1.08);
+  //padding: 9px;
+
+}
+
+.nav-item-title {
+  font-size: 0.9rem;
+}

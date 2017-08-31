@@ -1,0 +1,19 @@
+.container-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 14px 0px black;
+}
+
+.bottom-nav-bar {
+  background: #2196F3;
+  height: 56px;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.active {
+  color: rgba(255,255,255, 0.87);
+  padding-top: 6px;
+}
