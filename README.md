@@ -1,6 +1,14 @@
 # BottonBar Angular4 Component
 
-This component try to fulfill the [material design specification](https://material.io/guidelines/components/bottom-navigation.html) of the bottom bar but as a angular component
+This component try to fulfill the [material design specification](https://material.io/guidelines/components/bottom-navigation.html) of the bottom bar but as a angular component.
+
+It works in all kind of screens
+
+![use-example](https://user-images.githubusercontent.com/6787022/29973333-7eafd5a4-8f2f-11e7-935e-2047b26e063f.gif)
+
+```html
+<bottom-nav [tabs]="tabs" [initialColor]="'red'" [showTextInCaseMore3Elements]="true"></bottom-nav>
+```
 
 ## Dependecies : 
 
@@ -8,13 +16,13 @@ Boostrap 4 , make sure boostrap is working
 
 
 And add this in the head of your index.html
+
 ```html
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-``
+```
 
 ## Installation
-
 To install this library, run:
 
 ```bash
