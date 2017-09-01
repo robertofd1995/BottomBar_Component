@@ -1,6 +1,6 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule, Routes } from '@angular/router';
 import {
   trigger,
   state,
@@ -8,7 +8,6 @@ import {
   animate,
   transition
 } from '@angular/animations';
-
 
 import {BottomBarComponent} from './bottom-bar/bottom-bar.component';
 import {BottomNavItemComponent} from './bottom-nav-item/bottom-nav-item.component';
@@ -22,13 +21,12 @@ export {NavTab} from './bottom-nav-item/nav-tab';
 @NgModule({
   imports: [
     CommonModule,
-    BrowserAnimationsModule
+    RouterModule
   ],
   declarations: [
       BottomBarComponent,
       BottomNavItemComponent,
       IconComponent,
-
   ],
   exports: [
     BottomBarComponent,
