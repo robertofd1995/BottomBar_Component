@@ -2,6 +2,9 @@
 
 This component try to fulfill the [material design specification](https://material.io/guidelines/components/bottom-navigation.html) of the bottom bar but as a angular component
 
+![use-example](https://user-images.githubusercontent.com/6787022/29973333-7eafd5a4-8f2f-11e7-935e-2047b26e063f.gif)
+
+
 ## Dependecies : 
 
 Boostrap 4 , make sure boostrap is working
